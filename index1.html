@@ -1,16 +1,60 @@
 <!DOCTYPE html>
-   <html>
-    <head>
+<html>
+
+<head>
+    <style type="text/css">
+        h1 {
+            background-color: blue;
+            font-family: fantasy;
+        }
+    </style>
+    <style type="text/css">
+        h2 {
+            border-radius: 50%;
+            border: 5px;
+            background: #73AD21;
+            padding: 20px dotted red;
+            width: 200px;
+            height: 150px;
+        }
+        /*las clases empiezancon un .*/
+        .bordesredondos{
+            border-radius: 50%;
+            border: 5px;
+            background: #73AD21;
+            padding: 50px dotted red;
+            width: 200px;
+            height: 150px;
+        }
+        .textoGrande{
+            font-size: 80px;
+        }
+        html {
+            background-color: blanchedalmond;
+        }
         
-    </head>
-    <body>
-       <h1>Titulo:este es un  tìtuloa</h1>
-       <h1>Titulo:este es un  tìtulob</h1>
-       <h2>titulo2</h2>
-       <h3>titulo3</h3>
-       <h4>titulo4</h4>
-       <h5>titulo5</h5>
-       <h6>titulo6</h6>
- <p>aqui va cualquier parrafo</p>
-    </body>
+        body {
+            background-color: aliceblue;
+        }
+    </style>
+    <!--        dentro de unestilo lo primero es un selector en este caso h1-->
+    <!--        esto sirve para hacer los estilos genericos-->
+
+</head>
+
+<body>
+    <h1>Titulo:este es un  tìtuloa</h1>
+    <h1 style="background-color:coral;">Titulo:este es un  tìtulob</h1>
+    <!--el style de h1 sirve unicamente pare ese h1-->
+    <h2>titulo2</h2>
+    <h3>titulo3</h3>
+    <h4>titulo4</h4>
+    <div class="textoGrande">
+    <h5>titulo5</h5>
+    <h6 class="bordesredondos">titulo6 </h6>
+    
+    </div>
+        <p>aqui va cualquier parrafo</p>
+</body>
+
 </html>
